@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/samsung-sharp-sans');
+
+*{
+    margin:0px;
+    margin:opx;
+    box-sizing: border-box;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+body{
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    background-color: rgb(16, 15, 15);
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+        
+}
+.nav-bar:hover{
+    background-color: rgb(238, 85, 15);
+}
+.logo img{
+    
+    width: 30px;
+    height: 20px;
+    position: cursor;
+    filter: invert(80%);
+    margin: 10px 10px;
+    
+}
+
+.search-box{
+    display: flex;
+    flex: 1;
+    margin: opx 20px;
+
+}
+.search-box input{
+    display: flex;
+    flex: 1;
+    padding: 15;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.search-box button{
+    padding: 5px 10px;
+    background-color: darkgrey;
+    color: rgb(63, 65, 65);
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.search-box button:hover{
+    background-color: rgb(136, 58, 13);
+
+}
+.nav-links a{
+    text-decoration: None;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    text-decoration:underline;
+}
+.nav-bars a{
+    margin-left: 20px;
+}
+.nav-bars img{
+    width: 30px;
+    filter: invert(100%);
+}
+.Hero-section img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.Hero-section{
+    margin-top: 100px;
+}
+
+
